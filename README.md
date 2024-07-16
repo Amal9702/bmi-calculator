@@ -3,6 +3,12 @@
 
 This is a simple Body Mass Index (BMI) Calculator web application built using jQuery and Bootstrap. It allows users to calculate their BMI based on inputted height and weight, and provides BMI category and health range information.
 
+## Demo links
+Live demo:
+https://amal-bmi-task.morph.sa
+Video demo:
+https://www.loom.com/share/267f3d3d341d46a7ae172f967f14100b?sid=e923f950-4711-4ff2-8c05-8fe236f3a656
+
 ## Features
 
 - Calculate BMI based on metric (cm, kg) or imperial (in, lbs) units.
