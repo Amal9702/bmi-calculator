@@ -26,7 +26,38 @@ $theme-colors: (
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
+.custom-gradient{
+  background: rgb(214,252,254);
+  background: linear-gradient(140deg, rgba(214, 252, 254, 0) 0%, rgba(214, 252, 254, 0.46538) 62%, rgb(214, 230, 254) 153%);
+}
+.rectangle {
+  width: 65%;
+  background: rgb(214,252,254);
+  background: linear-gradient(140deg, rgba(214, 252, 254, 0) 0%, rgba(214, 252, 254, 0.46538) 62%, rgb(214, 230, 254) 93%);  
+  position: absolute;
+  z-index: -1;
+  height: 55vh;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 20px;
 
+  // Media query for tablets and smaller devices
+  @media (max-width: 768px) {
+      width: 100%;
+      margin-left: 0;
+  }
+}
+.bmi-result{
+  border-radius: 20px;
+  background: rgb(88, 125, 255);
+  background: linear-gradient(270deg, rgba(88, 125, 255, 1) 0%, rgba(52, 95, 246, 1) 100%);
+  padding: 20px;
+  
+   @media (min-width: 768px) {
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+}
 
 // Import Bootstrap mixins and core styles
 @import "../../node_modules/bootstrap/scss/mixins";
